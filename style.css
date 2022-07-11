@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+
+}
+
+.left {
+    float: left;
+    position: relative;
+    background-color: #DDFF00;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 12%;
+}
+
+.right {
+    float: right;
+    position: relative;
+    background-color: #FFE6E6;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    height: 500px;
+    width: 88%;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2px;
+    margin-bottom: 100px;
+
+}
+
+.half-width image {
+    width: 70%;
+
+}
+
+.orange-color {
+    color: orange;
+    text-decoration: none;
+}
+
+.link-button {
+    align: right;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.top-banner {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-image: url(images/shapes/7.png);
+}
+
+.recipie-item {
+    box-shadow: 10px 10px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
+}
